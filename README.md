@@ -13,11 +13,13 @@
 
 # 安装
 
-xxx
+```go
+import "github.com/Jathon-yang/go-wxsqlite3"
+```
 
 # 使用
 
-```Go
+```go
 key := url.QueryEscape("123456")
 dbname := fmt.Sprintf("./foo.db?_db_key=%s", key)
 db, err := sql.Open("sqlite3", dbname)
