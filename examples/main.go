@@ -6,12 +6,8 @@ import (
 	"log"
 	"net/url"
 	"os"
-
 	_ "github.com/Jathon-yang/go-wxsqlite3"
 )
-
-// _ "test/go-wxsqlite3"
-// _ "github.com/mutecomm/go-sqlcipher"
 
 func main() {
 	os.Remove("./foo.db")
